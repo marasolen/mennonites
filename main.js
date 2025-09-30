@@ -100,7 +100,7 @@ const setupVisualization = () => {
         .join("text")
         .attr("class", "leaving-text")
         .attr("text-multiplier", 0.4)
-        .attr("transform", (d, i) => `translate(${mainXScale(d.place) + mainXScale.bandwidth() / 2}, ${i < history.length / 2 ? d.endY + (mainHeight / 3) / 16 : d.startY - (mainHeight / 3) / 16})rotate(90)`)
+        .attr("transform", (d, i) => `translate(${mainXScale(d.place) + mainXScale.bandwidth() / 2}, ${i < history.length / 2 ? d.endY + (mainHeight / 3) / 14 : d.startY - (mainHeight / 3) / 14})rotate(90)`)
         .attr("dominant-baseline", "middle")
         .attr("text-anchor", (_, i) => i < history.length / 2 ? "start" : "end")
         .text(d => d.place);
@@ -110,7 +110,7 @@ const setupVisualization = () => {
         .join("text")
         .attr("class", "leaving-year")
         .attr("text-multiplier", 0.4)
-        .attr("transform", (d, i) => `translate(${mainXScale(d.place) + mainXScale.bandwidth() / 2 + 6 * 0.01 * mainHeight}, ${d.startY + mainHeight / 100})`)
+        .attr("transform", (d, i) => `translate(${mainXScale(d.place) + mainXScale.bandwidth() / 2 + 5 * 0.01 * mainHeight}, ${d.startY + mainHeight / 120})`)
         .attr("dominant-baseline", "middle")
         .attr("text-anchor", "start")
         .text(d => d.start + (d.uncertain ? " (ish)" : ""));

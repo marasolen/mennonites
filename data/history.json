@@ -26,7 +26,7 @@
         "start": 1943,
         "end": 1947,
         "distance": 0,
-        "uncertain": true,
+        "uncertain": false,
         "place": "Odesa, Ukraine",
         "reason": "personal"
     },
