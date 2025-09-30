@@ -3,48 +3,71 @@
         "start": 1525,
         "end": 1550,
         "distance": 0,
+        "uncertain": true,
         "place": "The Netherlands/Northern Germany"
     },
     {
         "start": 1550,
         "end": 1789,
         "distance": 1100,
-        "place": "Vistula Delta, Prussia (modern day Poland)"
+        "uncertain": true,
+        "place": "Vistula Delta, Prussia (modern day Poland)",
+        "reason": "religion"
     },
     {
         "start": 1789,
-        "end": 1947,
+        "end": 1943,
         "distance": 950,
-        "place": "Odessa, Ukraine"
+        "uncertain": true,
+        "place": "in/near Odesa, Ukraine",
+        "reason": "opportunity"
+    },
+    {
+        "start": 1943,
+        "end": 1947,
+        "distance": 0,
+        "uncertain": true,
+        "place": "Odesa, Ukraine",
+        "reason": "personal"
     },
     {
         "start": 1947,
         "end": 1957,
         "distance": 11900,
-        "place": "Neuland Colony, Paraguay"
+        "uncertain": false,
+        "place": "Neuland Colony, Paraguay",
+        "reason": "religion"
     },
     {
         "start": 1957,
-        "end": 1962,
+        "end": 1961,
         "distance": 10500,
-        "place": "Delta, BC"
+        "uncertain": false,
+        "place": "Delta, BC",
+        "reason": "opportunity"
     },
     {
-        "start": 1962,
+        "start": 1961,
         "end": 1990,
         "distance": 20,
-        "place": "Burnaby, BC"
+        "uncertain": false,
+        "place": "Burnaby, BC",
+        "reason": "personal"
     },
     {
         "start": 1990,
         "end": 2016,
         "distance": 70,
-        "place": "Nanaimo/Lantzville, BC"
+        "uncertain": false,
+        "place": "Nanaimo/Lantzville, BC",
+        "reason": "personal"
     },
     {
         "start": 2016,
         "end": 2025,
         "distance": 60,
-        "place": "Vancouver, BC"
+        "uncertain": false,
+        "place": "Vancouver, BC",
+        "reason": "personal"
     }
 ]

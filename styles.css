@@ -4,7 +4,7 @@ body {
     font-weight: 600;
     font-style: normal;
     color: #000000;
-    background-color: #f5eafc;
+    background-color: #f2eaf9;
 }
 
 .visualization-container {
@@ -23,6 +23,7 @@ body {
     margin: auto;
     display: block;
     min-width: 1000px;
+    min-height: 1000px;
 }
 
 .column {
@@ -53,6 +54,12 @@ p {
 
 p.caption {
     width: 50%;
+}
+
+@media screen and (max-width: 2000px) {
+    .visualization-container {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 1680px) {
