@@ -7,9 +7,9 @@ const setupVisualization = () => {
 
     const margin = {
         top: 0.04 * containerHeight,
-        right: 0.1 * containerWidth,
+        right: 0.04 * containerWidth,
         bottom: 0 * containerHeight,
-        left: 0.1 * containerWidth
+        left: 0.04 * containerWidth
     };
 
     const width = containerWidth - (margin.right + margin.left);
@@ -131,8 +131,8 @@ const setupVisualization = () => {
         .attr("fill", "none")
         .attr("d", (_, i) => {
             const path = d3.path();
-            path.moveTo(mainWidth, (i + 6) * mainHeight / 30);
-            path.lineTo(17 * mainWidth / 20, (i + 6) * mainHeight / 30);
+            path.moveTo(mainWidth, (i + 8) * mainHeight / 30);
+            path.lineTo(17 * mainWidth / 20, (i + 8) * mainHeight / 30);
             return path;
         });
 
@@ -141,7 +141,7 @@ const setupVisualization = () => {
         .join("text")
         .attr("class", "legend-text")
         .attr("text-multiplier", 0.5)
-        .attr("transform", (_, i) => `translate(${16 * mainWidth / 20}, ${(i + 6) * mainHeight / 30})`)
+        .attr("transform", (_, i) => `translate(${16 * mainWidth / 20}, ${(i + 8) * mainHeight / 30})`)
         .attr("dominant-baseline", "middle")
         .attr("text-anchor", "end")
         .text(d => d.description);
@@ -151,7 +151,7 @@ const setupVisualization = () => {
         .join("text")
         .attr("class", "title")
         .attr("text-multiplier", 1.5)
-        .attr("transform", `translate(${mainWidth}, ${mainHeight / 30})`)
+        .attr("transform", `translate(${mainWidth}, ${3.5 * mainHeight / 30})`)
         .attr("dominant-baseline", "middle")
         .attr("text-anchor", "end")
         .text("Leavings");
@@ -161,7 +161,7 @@ const setupVisualization = () => {
         .join("text")
         .attr("class", "subtitle")
         .attr("text-multiplier", 1)
-        .attr("transform", `translate(${mainWidth}, ${2.5 * mainHeight / 30})`)
+        .attr("transform", `translate(${mainWidth}, ${5 * mainHeight / 30})`)
         .attr("dominant-baseline", "middle")
         .attr("text-anchor", "end")
         .text("When, Where, and How Far");
