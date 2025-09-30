@@ -1,0 +1,50 @@
+[
+    {
+        "start": 1525,
+        "end": 1550,
+        "distance": 0,
+        "place": "The Netherlands/Northern Germany"
+    },
+    {
+        "start": 1550,
+        "end": 1789,
+        "distance": 1100,
+        "place": "Vistula Delta, Prussia (modern day Poland)"
+    },
+    {
+        "start": 1789,
+        "end": 1947,
+        "distance": 950,
+        "place": "Odessa, Ukraine"
+    },
+    {
+        "start": 1947,
+        "end": 1957,
+        "distance": 11900,
+        "place": "Neuland Colony, Paraguay"
+    },
+    {
+        "start": 1957,
+        "end": 1962,
+        "distance": 10500,
+        "place": "Delta, BC"
+    },
+    {
+        "start": 1962,
+        "end": 1990,
+        "distance": 20,
+        "place": "Burnaby, BC"
+    },
+    {
+        "start": 1990,
+        "end": 2016,
+        "distance": 70,
+        "place": "Nanaimo/Lantzville, BC"
+    },
+    {
+        "start": 2016,
+        "end": 2025,
+        "distance": 60,
+        "place": "Vancouver, BC"
+    }
+]
